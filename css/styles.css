@@ -30,7 +30,7 @@
 }
 
 .navbar-nav a:hover {
-  background-color: red;
+  background-color: #6c757d;
 }
 
 .back_img {
@@ -251,6 +251,13 @@ a {
   .container > .row1 {
     display: block;
   }
+  .col-md-5,
+  .col-md-7 {
+    padding: 0;
+  }
+  /* rect {
+    width: 100%;
+  } */
 }
 
 .navbar {
@@ -265,4 +272,14 @@ a {
 .nametag {
   border-bottom: 1px solid #000014;
   padding-left: 0.5rem;
+}
+.marketing_top {
+  margin: 9vh 0 9vh 0;
+  width: 100%;
+}
+.footer_col > p {
+  color: #fff;
+}
+.my-0 {
+  font-size: 1rem;
 }
